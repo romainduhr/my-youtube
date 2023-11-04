@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube clone</title>
+    <link rel="stylesheet" href="Styles/video.css">
+    <link rel="stylesheet" href="Styles/general.css">
+    <link rel="stylesheet" href="Styles/header.css">
+    <link rel="stylesheet" href="Styles/sidebar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger-menu-icon" src="icons/hamburger-menu.svg">
+            <img class="youtube-logo" src="icons/youtube-logo.svg">
+        </div>
+        <div class="middle-section">
+            <input class="search-box" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="icons/search.svg">
+            </button>
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+            </button>
+        </div>
+        <div class="right-section">
+            <img class="upload-icon" src="icons/upload.svg">
+            <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+            <div class="notifications-container">
+                <img class="notifications-icon" src="icons/notifications.svg">
+                <div class="notifications-count">3</div>
+            </div>
+            <img class="current-channel-picture" src="channels/channel1.jpeg">
+        </div>
+    </div>
+
+    <div class="sidebar">
+        <div class="sidebar-link">
+            <img src="icons/home.svg">
+            <p>Home</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/explore.svg">
+            <p>Explore</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/subscriptions.svg">
+            <p>Subscriptions</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/originals.svg">
+            <p>Originals</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/youtube-music.svg">
+            <p>Youtube Music</p>
+        </div>
+        <div class="sidebar-link">
+            <img src="icons/library.svg">
+            <p>Library</p>
+        </div>
+    </div>
+
+    <div class="video-grid">
+        <a href="https://www.youtube.com/watch?v=zxXXC-vqWng">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail1.jpeg">
+                    <div class="video-time">
+                        11:02
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channels/channel1.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Wordpress vscoding - why devs SHOULD learn Wordpress
+                        </p>
+                        <p class="video-author">
+                            SuperSimpleDev
+                        </p>
+                        <p class="video-stats">
+                            221 k vues &#183; il y a 2 ans
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=djcs7IYKldo">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail2.jpeg">
+                    <div class="video-time">
+                        30:09
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channels/channel2.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Le RECORD Pokémon que PERSONNE ne BATTRA (genre jamais).
+                        </p>
+                        <p class="video-author">
+                            NIONX
+                        </p>
+                        <p class="video-stats">
+                            206 k vues &#183; il y a 4 jours
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+       
+        <a href="https://www.youtube.com/watch?v=ZWUw8cGnQ0o">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail3.jpeg">
+                    <div class="video-time">
+                        4:06
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channels/channel3.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Non Cubers Be Like
+                        </p>
+                        <p class="video-author">
+                            STCuber
+                        </p>
+                        <p class="video-stats">
+                            673 k vues &#183; il y a 10 mois
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=VWFyo_9BF4I&t=437s">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail4.jpeg">
+                    <div class="video-time">
+                        24:39
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channels/channel4.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            J'ai acheté tous les objets des pubs TikTok (y'a des dingueries)
+                        </p>
+                        <p class="video-author">
+                            Amixem
+                        </p>
+                        <p class="video-stats">
+                            2,6 M de vues &#183; il y a 6 jours
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="https://www.youtube.com/watch?v=MKKtCg5cKiU">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail5.jpeg">
+                    <div class="video-time">
+                        12:53
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channels/channel5.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Faire de l'argent en tant que développeur : la réalité
+                        </p>
+                        <p class="video-author">
+                            Underscore_
+                        </p>
+                        <p class="video-stats">
+                            393 k vues &#183; il y a 6 mois
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        
+        <a href="https://www.youtube.com/watch?v=w13MFgHL1ks">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/thumbnail6.jpeg">
+                    <div class="video-time">
+                        10:28
+                    </div>
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channels/channel6.jpeg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">
+                            Super Mario Bros Wonder TEST : le meilleur Mario Bros depuis presque 15 ans &#128309; TEST NINTENDO SW
+                        </p>
+                        <p class="video-author">
+                            JV - Jeux Vidéo
+                        </p>
+                        <p class="video-stats">
+                            87 k vues &#183; il y a 3 jours
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </a>
+    </div>
+</body>
+</html>
